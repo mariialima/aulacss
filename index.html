@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA CSS</title>
+    <style>
+        .principal
+        {   position: absolute;
+            left: 80px;
+            background-color: black;
+            color: rgb(230, 230, 230);
+            width: 700px;
+            height: 400px;
+            border-style: solid;
+            border-width: 5px;
+            border-color: rgb(107, 125, 204) ;
+            border-radius: 50px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            justify-items: center;
+            align-items:center;
+            align-content: center;
+        }
+        .purple
+        {
+            width: 200px; /*largura*/
+            height: 200px;
+            background-color: rgb(156, 23, 145);
+        
+            font-size: 12px;
+        
+            /*OS CÓDIGOS ABAIXO SERVEM PARA ALINHAR ITENS DENTRO DE UMA DIV*/
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-items: center;
+            align-items:center;
+            align-content: center;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+<body>
+   <div class="principal">
+        <div class="purple">
+            BOLINHA 1
+        </div>
+
+        
+            <div class="purple">
+                BOLINHA 2
+            </div>
+   </div> 
+</body>
+</html>
